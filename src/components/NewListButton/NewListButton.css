@@ -1,0 +1,23 @@
+.newButtonContainer {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  background: var(--primary-dark-color);
+  border: none;
+  border-radius: 10px;
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  transition: 400ms ease-in-out;
+}
+
+.newButtonContainer:hover {
+  border-radius: 5px;
+}
+
+.icon {
+  width: 1rem;
+  height: auto;
+}
